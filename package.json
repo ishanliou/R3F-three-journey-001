@@ -1,11 +1,14 @@
 {
+  "homepage": "https://ishanliou.github.io/R3F-three-journey-001",
   "name": "threejs-journey",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "4.0",
