@@ -1,2 +1,2 @@
-# R3F
-[👉 here -->](https://ishanliou.github.io/R3F-three-journey-001)
+## React Three Fiber
+[Case study 👉 -->](https://ishanliou.github.io/R3F-three-journey-001)
