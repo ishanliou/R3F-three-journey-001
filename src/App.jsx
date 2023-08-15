@@ -9,6 +9,7 @@ import {
   Float,
   MeshReflectorMaterial,
 } from "@react-three/drei";
+import Banana from "./Banana";
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 // import CustomObject from "./CustomObject";
 
@@ -56,7 +57,7 @@ const App = () => {
       </mesh>
 
       <TransformControls object={cube} />
-
+      <Banana />
       <mesh position-y={-2} rotation-x={-Math.PI * 0.5} scale={10}>
         <planeGeometry />
         {/* <meshStandardMaterial color="greenyellow" /> */}
@@ -78,7 +79,7 @@ const App = () => {
           textAlign="center"
         >
           {/* <meshNormalMaterial />   change the color when you move */}
-          Woof Woof !
+          Banana!
         </Text>
       </Float>
 
