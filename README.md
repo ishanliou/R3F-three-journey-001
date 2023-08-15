@@ -1,2 +1,2 @@
 ## React Three Fiber
-[Case study 👉 -->](https://ishanliou.github.io/R3F-three-journey-001)
+[Case study 👉 -->](https://banana-three.netlify.app/)
